@@ -1,5 +1,5 @@
 # To-Do-List
-A backend-only To-Do List application built with Django REST Framework (DRF) that implements JWT authentication for secure user access. The API allows users to register, log in, and manage their personal tasks (CRUD operations). All endpoints are tested and verified in Postman.
+A backend-only To-Do List application built with Django REST Framework (DRF) that implements JWT authentication for secure user access. The API allows users to register, log in, and manage their personal tasks (CRUD operations). All endpoints are tested and verified by using Postman.
 
 
 ## Features:
@@ -12,7 +12,7 @@ A backend-only To-Do List application built with Django REST Framework (DRF) tha
 ## Tech Stack:
 - Backend: Django, Django REST Framework
 - Authentication: JWT (SimpleJWT)
-- Database: MySQL (or SQLite, depending on your setup)
+- Database: MySQL 
 - Testing Tool: Postman
 
 ## How to Run
