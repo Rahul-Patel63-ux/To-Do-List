@@ -13,12 +13,3 @@ class ToDoList(models.Model):
     def __str__(self):
         return f"{self.title}"
     
-# class MyUser(models.Model):
-#     name = models.CharField(max_length=255)
-#     email = models.EmailField(null=True, blank=True)
-#     password = models.CharField(max_length=255)
-#     password2 = models.CharField(max_length=255)
-#     is_active = models.BooleanField(default=True)
-
-#     def __str__(self):
-#         return f"{self.name}"

@@ -22,7 +22,7 @@ class TaskListCreateView(APIView):
         return Response({
             "tasks" : serializer.data
         })
-        
+
     
     def post(self, request):
         serializer = TasksSerializer(data=request.data)
